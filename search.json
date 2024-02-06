@@ -7,11 +7,25 @@
     "text": "Here are examples of LLMs as communicators"
   },
   {
+    "objectID": "posts/001_my_first_post/index.html",
+    "href": "posts/001_my_first_post/index.html",
+    "title": "A Start",
+    "section": "",
+    "text": "for idx in range"
+  },
+  {
+    "objectID": "posts/001_my_first_post/index.html#this",
+    "href": "posts/001_my_first_post/index.html#this",
+    "title": "A Start",
+    "section": "",
+    "text": "for idx in range"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Prompting an Awesome LLM",
     "section": "",
-    "text": "A test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
+    "text": "A Start\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nPeach\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nNorabug\n\n\n\n\n\n\n\n\n\n\n\n\nA test post\n\n\n\n\n\n\nLLMs\n\n\nprompting\n\n\nlogic\n\n\n\nAn example post from a Jupyter notebook\n\n\n\n\n\nFeb 2, 2024\n\n\nAn LLM User\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/000_test_post/index.html",
