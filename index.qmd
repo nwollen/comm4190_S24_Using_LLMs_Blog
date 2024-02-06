@@ -1,5 +1,5 @@
 ---
-title: My Explorations with LLMs
+title: Prompting an Awesome LLM 
 listing:
   contents: posts
   sort: date desc

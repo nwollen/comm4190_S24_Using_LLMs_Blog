@@ -5,4 +5,4 @@ about:
   template: jolla
 ---
 
-About this blog
+Here are examples of LLMs as communicators 
