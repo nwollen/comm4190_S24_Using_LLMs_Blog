@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/posts/000_test_post/index.html</loc>
-    <lastmod>2024-02-13T02:51:43.613Z</lastmod>
-  </url>
-  <url>
     <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/posts/001_my_first_post/index.html</loc>
-    <lastmod>2024-02-13T02:51:43.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2024-02-13T02:51:43.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2024-02-13T02:51:43.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/posts/third_post/index.html</loc>
-    <lastmod>2024-02-13T02:51:43.649Z</lastmod>
+    <lastmod>2024-02-13T21:58:15.743Z</lastmod>
   </url>
   <url>
     <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/posts/002_mysecondpost/index.html</loc>
-    <lastmod>2024-02-13T02:51:43.613Z</lastmod>
+    <lastmod>2024-02-13T21:58:15.743Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2024-02-13T21:58:15.743Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/about.html</loc>
+    <lastmod>2024-02-13T21:58:15.743Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/posts/third_post/index.html</loc>
+    <lastmod>2024-02-13T21:58:15.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nwollen.github.io/comm4190_S24_Using_LLMs_Blog/posts/000_test_post/index.html</loc>
+    <lastmod>2024-02-13T21:58:15.743Z</lastmod>
   </url>
 </urlset>
