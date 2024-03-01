@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Norabug">
+<meta name="dcterms.date" content="2024-02-25">
+<meta name="description" content="What will Chicago look like in the future? Let’s ask AI.">
 
-<title>Prompting an Awesome LLM</title>
+<title>Prompting an Awesome LLM - The Future of Chicago</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Prompting an Awesome LLM</span>
     </a>
   </div>
@@ -149,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -162,209 +105,60 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Prompting an Awesome LLM</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">The Future of Chicago</h1>
+                  <div>
+        <div class="description">
+          What will Chicago look like in the future? Let’s ask AI.
+        </div>
+      </div>
+                </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Norabug </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 25, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Chat GBT's role">Chat GBT's role <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Energy">Energy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Infrastructure">Infrastructure <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aesthetic">aesthetic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="art">art <span class="quarto-category-count">(1)</span></div><div class="category" data-category="employees">employees <span class="quarto-category-count">(1)</span></div><div class="category" data-category="new">new <span class="quarto-category-count">(1)</span></div><div class="category" data-category="power">power <span class="quarto-category-count">(1)</span></div><div class="category" data-category="storefront">storefront <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="ive-always-had-a-fear-of-the-future-when-it-comes-to-climate-change-the-unknown-and-how-the-next-generations-will-take-over-our-world." class="level2">
+<h2 class="anchored" data-anchor-id="ive-always-had-a-fear-of-the-future-when-it-comes-to-climate-change-the-unknown-and-how-the-next-generations-will-take-over-our-world.">I’ve always had a fear of the future when it comes to climate change, the unknown, and how the next generations will take over our world.</h2>
+<p>I am very fond of Chicago. I grew up in the city and spent my first two years at Loyola Chicago. I often wonder what my favorite city will look like decades from now. What if I used Chat GBT and AI-Generated images to predict the future of my hometown, Chicago, IL?</p>
+<hr>
+<ul>
+<li>First, I prompted Chat GBT</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1709319291711">
-<div class="thumbnail">
-<p><a href="./posts/third_fr_post/Untitled.html" class="no-external"></a></p><a href="./posts/third_fr_post/Untitled.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/third_fr_post/Untitled.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/third_fr_post/Untitled.html" class="no-external"></a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/third_fr_post/Untitled.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/third_fr_post/Untitled.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/third_fr_post/Untitled.html" class="no-external"></a></p><a href="./posts/third_fr_post/Untitled.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Infrastructure,Energy,Chat GBT" s="" role'="" data-listing-date-sort="1708819200000" data-listing-file-modified-sort="1709319291715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="990">
-
-<div class="thumbnail">
-<a href="./posts/third_fr_post/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/third_fr_post/energy.png"  class="thumbnail-image card-img"/></p>
-
-</a>
-</div>
-
-<div class="body">
-
-<h3 class="no-anchor listing-title"><a href="./posts/third_fr_post/index.html" class="no-external">Can Chat GBT Guide an Energy Revolution?</a></h3>
-<div class="listing-subtitle"><a href="./posts/third_fr_post/index.html" class="no-external"></a></div>
-
- 
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Infrastructure'); return false;">Infrastructure</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Energy'); return false;">Energy</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Chat GBT's role'); return false;">Chat GBT's role</div>
-
-</div>
- 
-
-<div class="delink listing-description"><a href="./posts/third_fr_post/index.html" class="no-external">Infrastructure and energy usage in Philadelphia is a major economic, health, and safety issue and has been long discussed. Can LLMs be at the forefront of this revolution?</a></div>
-
-</div>
-<div class="metadata"><a href="./posts/third_fr_post/index.html" class="no-external">
-<div class="listing-date">`Feb 25, 2024`{=html}</div>
-<div class="listing-author">Norabug </div>
-
-</a></div>
-
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1708819200000" data-listing-file-modified-sort="1709319291711" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<div class="thumbnail">
-<p><a href="./posts/4th_post/index.html" class="no-external"></a></p><a href="./posts/4th_post/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/4th_post/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/4th_post/index.html" class="no-external">The Future of Chicago</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/4th_post/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/4th_post/index.html" class="no-external">What will Chicago look like in the future? Let’s ask AI.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/4th_post/index.html" class="no-external">
-<div class="listing-date">
-Feb 25, 2024
-</div>
-<div class="listing-author">
-Norabug
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="art,power,new" data-listing-date-sort="1706832000000" data-listing-file-modified-sort="1709319291815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="585">
-<div class="thumbnail">
-<p><a href="./posts/third_post/index.html" class="no-external"></a></p><a href="./posts/third_post/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/third_post/art_ai.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/third_post/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/third_post/index.html" class="no-external">Life in ’84 (not 1984)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/third_post/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('art'); return false;">
-art
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('power'); return false;">
-power
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('new'); return false;">
-new
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/third_post/index.html" class="no-external">What will life be like in 2084?</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/third_post/index.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2024
-</div>
-<div class="listing-author">
-Norabug
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="employees,storefront,aesthetic" data-listing-date-sort="1706832000000" data-listing-file-modified-sort="1709319291695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
-<div class="thumbnail">
-<p><a href="./posts/002_mysecondpost/index.html" class="no-external"></a></p><a href="./posts/002_mysecondpost/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/002_mysecondpost/nails.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/002_mysecondpost/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_mysecondpost/index.html" class="no-external">My Nail Salon</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/002_mysecondpost/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('employees'); return false;">
-employees
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('storefront'); return false;">
-storefront
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('aesthetic'); return false;">
-aesthetic
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/002_mysecondpost/index.html" class="no-external">Here is some information on my dream nail salon company- Nail Verde</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/002_mysecondpost/index.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2024
-</div>
-<div class="listing-author">
-Norabug
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
